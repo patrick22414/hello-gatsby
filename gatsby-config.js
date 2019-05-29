@@ -5,7 +5,11 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    title: `My Sweet Title from Metadata`,
+  },
   plugins: [
+    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {

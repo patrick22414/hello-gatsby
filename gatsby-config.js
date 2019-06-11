@@ -6,10 +6,9 @@
 
 module.exports = {
   siteMetadata: {
-    title: `My Sweet Title from Metadata`,
+    title: `My Sweet Site`,
   },
   plugins: [
-    `gatsby-plugin-emotion`,
     {
       resolve: `gatsby-plugin-typography`,
       options: {
